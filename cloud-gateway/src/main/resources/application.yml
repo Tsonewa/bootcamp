@@ -1,0 +1,18 @@
+#server:
+#  port: 8765
+#
+#spring:
+#  application:
+#    name: api-gateway
+#
+#zuul:
+#  routes:
+#    user-service:
+#      path: /users/**
+#      service-id: user-service
+#      uri: http://localhost:9002/users/
+#    department-service:
+#      path: /departments/**
+#      service-id: department-service
+#      uri: http://localhost:9001/departments/
+
